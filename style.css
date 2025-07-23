@@ -4,7 +4,6 @@
 .inter-font {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
   font-style: normal;
 }
 .color{
@@ -42,7 +41,52 @@
 }
 .banner-container h3{
     font-size: 4em;
+    font-weight: bold;
 }
 .banner-container p{
     font-size: 1.25em;
+    font-weight: 400;
+}
+
+
+
+section h3 {
+    
+    font-size: 3.2em;
+    text-align: center;
+    font-weight: bold;
+}
+section h4{
+    margin: 2px;
+    font-size: 1.25em;
+    text-align: center;
+    font-weight: 400;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 250px;
+    text-align:center;
+    gap: 20px;
+    
+}
+.lilly {
+    font-size: 1.25em;
+    font-weight: 500;
+}
+.price{
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+.btn{
+    height: 50px;
+    width: 265px;
+    padding: auto 50px;
+    background-color:#E95A08;
+    border: none;
+    font-size: 1em;
+    font-weight: 400;
+    color: #FFFFFF;
 }
