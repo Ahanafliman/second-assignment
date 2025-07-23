@@ -7,6 +7,16 @@
   font-weight: <weight>;
   font-style: normal;
 }
+.color{
+    color: #E95A08;
+}
+
+.color2{
+    color: #8987A1;
+}
+.color3{
+    color: #00000075;
+}
 
 .navbar {
     justify-content: space-between;
@@ -21,4 +31,18 @@
 .nav-items{
     list-style: none;
     margin-right: 30px;
+}
+  
+.banner-container {
+    display: flex;
+    margin: 120px 120px;
+    justify-content: space-around;
+
+
+}
+.banner-container h3{
+    font-size: 4em;
+}
+.banner-container p{
+    font-size: 1.25em;
 }
