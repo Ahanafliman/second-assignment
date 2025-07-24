@@ -155,8 +155,56 @@ section h1{
 .deals {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 28px;
+    gap: 10px;
     margin: 20px 350px;
-    border-radius: 10px;
+    align-items: center;
+
+    
+}
+.deals-img{
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 20px;
 }
 
+.bloom{
+    position: relative;
+    right:410px ;
+    bottom: 400px;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.ana{
+    position: relative;
+    right:410px ;
+    bottom: 250px;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.zabo {
+    position: relative;
+    right:-200px ;
+    bottom: 480px;
+    font-size: 2.85em;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+.shop{
+    font-size: 0.70em;
+}
+
+.row {
+    height: 500px;
+}
+footer section div img{ 
+    height: 500px;
+    width: 1900px;
+}
+.footer-contain img {
+    margin: 120px, 0px;
+}
