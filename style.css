@@ -124,19 +124,7 @@ section div {
     bottom: 150px;
     
 }
-@media screen and (max-width: 576px) {
-    
-    .navbar{
-        margin: 20px ;
-        justify-content:space-around ;
-    }
-    .hide{
-        visibility: hidden
-    }
-    .banner-container .inter-font{ 
-        display: flex;
-    }
-}
+
 
 section h1{
     font-size: 3.25em;
@@ -272,4 +260,148 @@ footer{
     margin: 20px 15px;
     display: flex;
     gap: 24px;
+}
+
+
+@media screen and (max-width: 576px) {
+    
+    .navbar{
+        margin: 20px ;
+        justify-content:space-around ;
+    }
+    .hide{
+        visibility: hidden
+    }
+    .banner-container{ 
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-container img{
+        height: 100%;
+        width: 100%;
+        width: ;
+    }
+    .banner-container h3 {
+        font-size: 1.85em;
+        text-align: left;
+        margin-top: 28px;
+        margin-left: 16px;
+    }
+    .banner-container p{
+        font-size: 1em;
+        justify-content: center;
+        text-align: center;
+        margin: 28px 16px;
+    }
+    main section h3{
+        font-size: 1.25em;
+        text-align: center;
+    }
+    main section h4{
+        font-size: 1em;
+        text-align: center;
+        margin: 16px 28px;
+    }
+    .card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 28px 17px;
+    }
+    .flower-store {
+        display: flex;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 5px;
+        margin-bottom: 0px;
+    }
+    .store-description{
+        margin: 10px 5px;
+        gap: 10px;
+    }
+    .trusted-badge{
+        visibility: hidden;
+    }
+    section h1{
+        font-size: 1.50em;
+        text-align: center;
+        margin: 5px 10px;
+    }
+    section p{
+        font-size: 1em;
+        text-align: end;
+        margin: 5px 10px;
+    }
+    .deals{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 15px;
+        height: 100%;
+        width: 100%;
+    }
+    .deals-img{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10px 15px;
+        height: 100%;
+        width: 100%;
+    }
+    .bloom{
+        position: relative;
+        bottom: 700px;
+        right: 110px;
+        text-align: center;
+        font-size: 1.25em;
+    }
+    .ana{
+        position: relative;
+        bottom: 500px;
+        right: 110px;
+        text-align: center;
+        font-size: 1.25em;
+    }
+    .zabo{
+        position: relative;
+        bottom: 300px;
+        right: 110px;
+        font-size: 1.25em;
+    }
+    .footer-contain{
+        height: 100%;
+        width: 100%;
+        height: 100px;
+        width: 300px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .bunch{
+        position: relative;
+        bottom: -150px;
+        left: 100px;
+        font-size: 1.25em ;
+        text-align: center;
+        
+    }
+    .btn1 {
+        position: relative;
+        bottom: -200px;
+        left: 100px;
+        height: 50px;
+        width: 100px;
+    
+    }
+    .btn2{
+        position: relative;
+        bottom: -150px;
+        left: 550px;
+        height: 50px;
+        width: 80px;
+    }
+    .footer-items{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 280px 10px;
+        text-align: left;
+
+    }
+
 }
